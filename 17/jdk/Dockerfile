@@ -20,7 +20,7 @@ RUN apt-get update \
 RUN ln -sf /usr/share/zoneinfo/Asia/Phnom_Penh /etc/localtime
 RUN echo "Asia/Phnom_Penh" > /etc/timezone
 
-COPY slim-java* /usr/local/bin/
+COPY 17/jdk/slim-java* /usr/local/bin/
 
 RUN set -eux; \
     export DEBIAN_FRONTEND=noninteractive; \
