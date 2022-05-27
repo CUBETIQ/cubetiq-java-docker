@@ -1,0 +1,6 @@
+os: ubuntu 20.04
+graalvm: 17
+java: 17
+author: sombochea <sombochea@cubetiqs.com>
+company: cubetiq solution
+build: 27/05/2022
