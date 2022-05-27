@@ -5,7 +5,7 @@ ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 ENV TIMEZ=Asia/Phnom_Penh
 
 RUN mkdir -p /src/cubetiq/build
-COPY lic.txt version.txt /src/cubetiq/build/
+COPY version.txt /src/cubetiq/build/
 
 ARG GRAAL_VERSION=22.1.0
 ARG JAVA_VERSION=17
